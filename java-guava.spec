@@ -9,6 +9,10 @@ Group:		Libraries/Java
 Source0:	http://search.maven.org/remotecontent?filepath=com/google/guava/guava/%{version}/%{srcname}-%{version}.jar
 # Source0-md5:	2c10bb2ca3ac8b55b0e77e54a7eb3744
 URL:		http://code.google.com/p/guava-libraries
+BuildRequires:	jpackage-utils
+BuildRequires:	rpm-javaprov
+BuildRequires:	rpmbuild(macros) >= 1.300
+Requires:	jpackage-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
