@@ -1,5 +1,4 @@
 %define		srcname		guava
-%include	/usr/lib/rpm/macros.java
 Summary:	Google Core Libraries for Java
 Name:		java-%{srcname}
 Version:	15.0
